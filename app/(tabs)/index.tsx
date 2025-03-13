@@ -4,7 +4,7 @@ import React from 'react'
 const Index = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Mehroz</Text>
+      <Text style={styles.text}>Mobile Btn</Text>
     </View>
   )
 }
@@ -19,6 +19,10 @@ const styles = StyleSheet.create({
     backgroundColor: 'black' 
   },
   text: {
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 10,
+    backgroundColor: 'red',
     color: 'white',
     fontSize: 20,   
     fontWeight: 'bold' 
